@@ -62,7 +62,7 @@ private:
 public:
 	static void ShowFindCurrencyScreen()
 	{
-		DrawScreenHeader(clUtil::Spaces(8) + "Find Currency Screen");
+		DrawScreenHeader(clUtil::Spaces(9) + "Find Currency Screen");
 
 		_Find();
 	}

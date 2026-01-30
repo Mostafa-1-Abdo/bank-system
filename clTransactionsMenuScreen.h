@@ -20,7 +20,6 @@ private:
 
 	static void _PrintTransactionsMenu()
 	{
-		DrawScreenHeader(clUtil::Spaces(9) + "Transactions Screen");
 		cout << clUtil::Spaces(44) << "==============================================\n";
 		cout << clUtil::Spaces(44) << clUtil::Spaces(15) << "Transactions Menu\n";
 		cout << clUtil::Spaces(44) << "==============================================\n";
@@ -38,6 +37,7 @@ public:
 	{
 		while (true)
 		{
+			DrawScreenHeader(clUtil::Spaces(9) + "Transactions Screen");
 			_PrintTransactionsMenu();
 			enTransactionsMenuOption Option = (enTransactionsMenuOption)clInputValidation::ReadNumberBetween<short>(1, 6, clUtil::Spaces(44)+"Choose what you would like to do : ");
 

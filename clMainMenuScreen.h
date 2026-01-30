@@ -8,7 +8,7 @@
 #include "clUpdateClientScreen.h"
 #include "clFindClinetScreen.h"
 #include "clTransactionsMenuScreen.h"
-#include "clManageUsersMenuScreen.h"
+#include "clUsersManagementMenuScreen.h"
 #include "clLogoutScreen.h"
 #include "clAccessDeniedScreen.h"
 #include "clLoginLogListScreen.h"
@@ -36,7 +36,6 @@ protected:
 	
 	static void _PrintMainMenu()
 	{
-		DrawScreenHeader(clUtil::Spaces(14) + "Main Screen");
 		cout << clUtil::Spaces(44) << "==============================================\n";
 		cout << clUtil::Spaces(44)<< clUtil::Spaces(19) << "Main Menu\n";
 		cout << clUtil::Spaces(44) << "==============================================\n";
@@ -60,6 +59,7 @@ public :
 
 		while (true)
 		{
+			DrawScreenHeader(clUtil::Spaces(14) + "Main Screen");
 			clMainMenuScreen::_PrintMainMenu();
 			enMainMenuOption Option = (enMainMenuOption)clInputValidation::ReadNumberBetween<short>(1, 10, clUtil::Spaces(44) + "Choose what you would like to do : ");
 
@@ -88,7 +88,7 @@ public :
 					clTransactionsMenuScreen::ShowTransactionsMenuScreen();
 					continue;
 				case enMainMenuOption::UsersManagement:
-					clManageUsersMenuScreen::ShowManageUsersMainMenuScreen();
+					clManageUsersMenuScreen::ShowUsersManagementMainMenuScreen();
 					continue;
 				case enMainMenuOption::LoginLog:
 					clLoginLogListScreen::ShowLoginLogListScreen();

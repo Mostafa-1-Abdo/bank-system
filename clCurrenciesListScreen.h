@@ -38,7 +38,7 @@ public:
 	static void ShowCurrenciesListScreen()
 	{
 		vector <clCurrency> veCurrencies = clCurrency::GetCurrenciesList();
-		DrawScreenHeader(clUtil::Spaces(8) + "Currencies List Screen", clUtil::Spaces(13) + to_string(veCurrencies.size()) + " Currencies");
+		DrawScreenHeader(clUtil::Spaces(8) + "Currencies List Screen", clUtil::Spaces(12) + to_string(veCurrencies.size()) + " Currencies");
 
 		_PrintCurrenciesListHeader();
 		_PrintCurrenciesList(veCurrencies);

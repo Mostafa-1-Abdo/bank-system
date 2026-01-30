@@ -19,7 +19,6 @@ private:
 
 	static void _PrintCurrencyExchangeMenu()
 	{
-		DrawScreenHeader(clUtil::Spaces(14) + "Currency Exchange Screen");
 		cout << clUtil::Spaces(44) << "==============================================\n";
 		cout << clUtil::Spaces(44) << clUtil::Spaces(15) << "Currency Exchange Menu\n";
 		cout << clUtil::Spaces(44) << "==============================================\n";
@@ -36,6 +35,7 @@ public:
 	{
 		while (true)
 		{
+			DrawScreenHeader(clUtil::Spaces(7) + "Currency Exchange Screen");
 			_PrintCurrencyExchangeMenu();
 			enCurrencyExchangeMenuOption Option = (enCurrencyExchangeMenuOption)clInputValidation::ReadNumberBetween<short>(1, 5, clUtil::Spaces(44) + "Choose what you would like to do : ");
 

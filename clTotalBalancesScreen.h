@@ -47,7 +47,7 @@ public:
 		vector <clClient> veClients = clClient::GetClientsList();
 		int NumberOfClients = veClients.size();
 
-		DrawScreenHeader(clUtil::Spaces(11) + "Total Balances Screen", clUtil::Spaces(7) + "Clients List(" + to_string(NumberOfClients) + ")" + " Client(s)");
+		DrawScreenHeader(clUtil::Spaces(8) + "Total Balances Screen", clUtil::Spaces(6) + "Clients List(" + to_string(NumberOfClients) + ")" + " Client(s)");
 
 		_PrintHeader(NumberOfClients);
 		_PrintList(veClients);

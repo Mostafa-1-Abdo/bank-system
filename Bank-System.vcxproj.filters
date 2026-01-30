@@ -131,7 +131,7 @@
     <ClInclude Include="clMainMenuScreen.h">
       <Filter>Header Files\Screens\Main Menu</Filter>
     </ClInclude>
-    <ClInclude Include="clManageUsersMenuScreen.h">
+    <ClInclude Include="clUsersManagementMenuScreen.h">
       <Filter>Header Files\Screens\Main Menu\Users Management</Filter>
     </ClInclude>
     <ClInclude Include="clPerson.h">

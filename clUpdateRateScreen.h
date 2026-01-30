@@ -35,7 +35,7 @@ private:
 public:
 	static void ShowUpdateRateScreen()
 	{
-		DrawScreenHeader(clUtil::Spaces(8) + "Update Rate Screen");
+		DrawScreenHeader(clUtil::Spaces(10) + "Update Rate Screen");
 
 		_Update();
 	}

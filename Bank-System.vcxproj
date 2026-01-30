@@ -155,7 +155,7 @@
     <ClInclude Include="clLoginScreen.h" />
     <ClInclude Include="clLogoutScreen.h" />
     <ClInclude Include="clMainMenuScreen.h" />
-    <ClInclude Include="clManageUsersMenuScreen.h" />
+    <ClInclude Include="clUsersManagementMenuScreen.h" />
     <ClInclude Include="clPerson.h" />
     <ClInclude Include="clScreen.h" />
     <ClInclude Include="clString.h" />

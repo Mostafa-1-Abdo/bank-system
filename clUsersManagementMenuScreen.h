@@ -20,9 +20,8 @@ private:
 
    static void _PrintManageUsersMenu()
 	{
-		DrawScreenHeader(clUtil::Spaces(10) + "Manage Users Screen");
 		cout << clUtil::Spaces(44) << "==============================================\n";
-		cout << clUtil::Spaces(44) << clUtil::Spaces(15) <<"Manage Users Menu\n";
+		cout << clUtil::Spaces(44) << clUtil::Spaces(15) <<"Users Management Menu\n";
 		cout << clUtil::Spaces(44) << "==============================================\n";
 		cout << clUtil::Spaces(44) << "[1] List Users.\n";
 		cout << clUtil::Spaces(44) << "[2] Add New User.\n";
@@ -34,10 +33,11 @@ private:
 	}
 	
 public:
-	static void ShowManageUsersMainMenuScreen()
+	static void ShowUsersManagementMainMenuScreen()
 	{
 		while (true)
 		{
+			DrawScreenHeader(clUtil::Spaces(10) + "Users Management Screen");
 			_PrintManageUsersMenu();
 
 			enMangaeUsersMenuOption Option = (enMangaeUsersMenuOption)clInputValidation::ReadNumberBetween<short>(1, 6, clUtil::Spaces(44) + "Choose what you would like to do : ");

@@ -49,7 +49,7 @@ private:
 public:
 	static void ShowTransferScreen()
 	{
-		DrawScreenHeader(clUtil::Spaces(5) + "Transfer Screen");
+		DrawScreenHeader(clUtil::Spaces(12) + "Transfer Screen");
 
 		_Transfer();
 	}
