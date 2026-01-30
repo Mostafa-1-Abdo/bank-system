@@ -14,3 +14,6 @@ Release/
 
 # Temp files
 0
+
+# Log files
+*Log.txt

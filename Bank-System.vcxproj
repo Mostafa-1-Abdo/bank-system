@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d3d751e7-2ab9-45a7-94e9-f357eef7cc97}</ProjectGuid>
+    <ProjectGuid>{0fba8997-f4c9-4806-97c8-1d09ec242c48}</ProjectGuid>
     <RootNamespace>BankSystem</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -128,6 +128,50 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bank-System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clAccessDeniedScreen.h" />
+    <ClInclude Include="clAddNewClientScreen.h" />
+    <ClInclude Include="clAddNewUserScreen.h" />
+    <ClInclude Include="clBankSystem.h" />
+    <ClInclude Include="clClient.h" />
+    <ClInclude Include="clClientInfo.h" />
+    <ClInclude Include="clClientsListScreen.h" />
+    <ClInclude Include="clCurrenciesListScreen.h" />
+    <ClInclude Include="clCurrency.h" />
+    <ClInclude Include="clCurrencyCalculatorScreen.h" />
+    <ClInclude Include="clCurrencyExchangeMenuScreen.h" />
+    <ClInclude Include="clCurrencyInfo.h" />
+    <ClInclude Include="clDate.h" />
+    <ClInclude Include="clDeleteClientScreen.h" />
+    <ClInclude Include="clDeleteUserScreen.h" />
+    <ClInclude Include="clDepositScreen.h" />
+    <ClInclude Include="clFile.h" />
+    <ClInclude Include="clFindClinetScreen.h" />
+    <ClInclude Include="clFindCurrencyScreen.h" />
+    <ClInclude Include="clFindUserScreen.h" />
+    <ClInclude Include="clInputValidation.h" />
+    <ClInclude Include="clLoginLogListScreen.h" />
+    <ClInclude Include="clLoginScreen.h" />
+    <ClInclude Include="clLogoutScreen.h" />
+    <ClInclude Include="clMainMenuScreen.h" />
+    <ClInclude Include="clManageUsersMenuScreen.h" />
+    <ClInclude Include="clPerson.h" />
+    <ClInclude Include="clScreen.h" />
+    <ClInclude Include="clString.h" />
+    <ClInclude Include="clTotalBalancesScreen.h" />
+    <ClInclude Include="clTransactionsMenuScreen.h" />
+    <ClInclude Include="clTransferLogListScreen.h" />
+    <ClInclude Include="clTransferScreen.h" />
+    <ClInclude Include="clUpdateClientScreen.h" />
+    <ClInclude Include="clUpdateRateScreen.h" />
+    <ClInclude Include="clUpdateUserScreen.h" />
+    <ClInclude Include="clUser.h" />
+    <ClInclude Include="clUserInfo.h" />
+    <ClInclude Include="clUsersListScreen.h" />
+    <ClInclude Include="clUtil.h" />
+    <ClInclude Include="clWithdrawScreen.h" />
+    <ClInclude Include="CurrentUser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
