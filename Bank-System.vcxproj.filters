@@ -168,4 +168,24 @@
       <Filter>Header Files\Screens\Main Menu\Users Management</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Clients.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="Currencies.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="Last Account Number.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="Login Log.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="Trasnfer Log.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="Users.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

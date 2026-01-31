@@ -173,6 +173,14 @@
     <ClInclude Include="clWithdrawScreen.h" />
     <ClInclude Include="CurrentUser.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Clients.txt" />
+    <Text Include="Currencies.txt" />
+    <Text Include="Last Account Number.txt" />
+    <Text Include="Login Log.txt" />
+    <Text Include="Trasnfer Log.txt" />
+    <Text Include="Users.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

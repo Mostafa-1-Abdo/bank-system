@@ -27,7 +27,7 @@ private:
 		cout << "| " << setw(8) << Record.SenderClientAccountNumber;
 		cout << "| " << setw(8) << Record.RecevierClientAccountNumber;
 		cout << "| " << setw(16) << Record.Amount;
-		cout << "| " << setw(16) << Record.RecevierClientNewBalance;
+		cout << "| " << setw(16) << Record.SenderClientNewBalance;
 		cout << "| " << setw(16) << Record.RecevierClientNewBalance;
 		cout << "| " << setw(12) << Record.Username << "|\n";
 	}
