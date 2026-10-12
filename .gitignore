@@ -12,8 +12,10 @@ Release/
 *.ilk
 *.obj
 
-# Temp files
+# Dynamic Data Files (Ignored to keep repository clean)
+*.txt
 0
 
-# Log files
-*Log.txt
+# Exceptions (Files to keep in version control)
+!README.md
+!Currencies.txt
