@@ -36,7 +36,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bank-System.cpp">
+    <ClCompile Include="bank-system.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
